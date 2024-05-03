@@ -1,0 +1,11 @@
+<h1>
+  {{
+    ["City: New York", "City details: None", "Cargo type: fragile"]
+      | startsWithFilterPipe : "Ci"
+  }}
+</h1>
+<div>
+  <darkmode-toggler
+    (stateChanged)="handleStateChange($event)"
+  ></darkmode-toggler>
+</div>

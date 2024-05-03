@@ -1,0 +1,9 @@
+<table>
+  <tbody>
+    <tr>
+      <td *ngFor="let card of cards; let i = index" (click)="selectCard(i)">
+        {{ i === selectedCard ? "up" : "down" }}
+      </td>
+    </tr>
+  </tbody>
+</table>

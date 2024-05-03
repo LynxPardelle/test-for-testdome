@@ -1,0 +1,12 @@
+<div>
+  <!-- The onSubmit method is invoked on the form submit -->
+  <form (submit)="onSubmit()">
+    <label> Description
+      <input name="description" [(ngModel)]="weather.description">
+    </label> <br />
+    <label> Temperature
+      <input name="temperature">
+    </label>
+    <button type="submit">Submit</button>
+  </form>
+</div>
